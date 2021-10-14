@@ -8,13 +8,6 @@ import Ravenclaw from '../images/Ravenclaw.png';
 class StudentsCards extends React.Component {
   render() {
     const { students } = this.props;
-
-		const getCrest = (house) => {
-			if (house === 'Gryffindor') return Gryffindor;
-			if (house === 'Slytherin') return Slytherin; 
-			if (house === 'Hufflepuff') return Hufflepuff;
-			if (house === 'Ravenclaw') return Ravenclaw;
-		};
 		
 		return (
 			<div className="students-cards">
