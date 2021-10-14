@@ -59,13 +59,13 @@ Renderize os cards para todos os estudantes, utlilizando o componente Cards.
 ---
 ### Exercício 3
 
-Utilize o componente HouseButtons para filtrar os estudantes pela casa de Hogwarts a qual pertencem.
+Você deve ter notado que alguns estudantes esqueceram de enviar a foto 3x4 para manter no registro de Hogwarts. Para os alunos que não tem uma imagem, renderize o brazão da casa a qual eles pertencem.
 
-- Os botões já existem na aplicação, porém eles ainda não tem funcionalidade. Essa será sua tarefa. Lembre-se de atualizar o Contexto com as informações filtradas.
+*Você pode encontrar os brazões das casas na pasta **images***
 
 ---
 ### Bônus
 
-Você deve ter notado que alguns estudantes esqueceram de enviar a foto 3x4 para manter no registro de Hogwarts. Para os alunos que não tem foto, renderize o brazão da casa a qual eles pertencem.
+Utilize o componente HouseButtons para filtrar os estudantes pela casa de Hogwarts a qual pertencem.
 
-*Você pode encontrar os brazões das casas na pasta **images***
+- Os botões já existem na aplicação, porém eles ainda não tem funcionalidade. Essa será sua tarefa. Lembre-se de atualizar o Contexto com as informações filtradas.
