@@ -12,15 +12,15 @@ class App extends React.Component {
 
     this.state = {
       filter: 'Todos',
-    }
+    };
 
     this.handleClick = this.handleClick.bind(this);
   }
 
-   handleClick({ target }) {
+  handleClick({ target }) {
     this.setState({
       filter: target.name,
-    })
+    });
   }
 
   render() {
@@ -28,8 +28,8 @@ class App extends React.Component {
       students: data,
       filter: this.state.filter,
       filterHouse: this.handleClick,
-    }
-    
+    };
+
     return (
       <div className="App">
         <AppContext.Provider value={ contextValue }>
