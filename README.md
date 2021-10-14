@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Esse é um exercício para o conteúdo sobre Context API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Antes de iniciar
 
-## Available Scripts
+Crie um fork desse projeto e para isso siga [esse tutorial de como realizar um fork](https://guides.github.com/activities/forking/).
 
-In the project directory, you can run:
+Após feito o fork, clone o repositório criado para o seu computador.
 
-### `npm start`
+Rode o npm install.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Vá para a branch main do seu projeto e execute o comando:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+git branch
+Verifique se as seguintes branchs apareceram:
 
-### `npm test`
+- main
+- gabarito
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Após a solução dos exercícios, abra um PR no seu repositório forkado e, se quiser, mergeie para a master, sinta-se a vontade!
 
-### `npm run build`
+**Atenção**! Quando for criar o PR você irá se deparar com essa tela:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://github.com/tryber/exercise-contextAPI-refactoring/raw/master/images/example-pr.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+PR do exercício
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+É necessário realizar uma mudança. Clique no *base repository* como na imagem abaixo:
 
-### `npm run eject`
+![](https://github.com/tryber/exercise-contextAPI-refactoring/raw/master/images/change-base.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Mudando a base do repositório
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Mude para o seu repositório. Seu nome estará na frente do nome dele, por exemplo: antonio/TicTacToe. Depois desse passo a página deve ficar assim:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![](https://github.com/tryber/exercise-contextAPI-refactoring/raw/master/images/after-change.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Após mudança
 
-## Learn More
+Agora basta criar o PULL REQUEST clicando no botão Create Pull Request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para cada PR realize esse processo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## COMEÇANDO OS EXERCÍCIOS
 
-### Code Splitting
+### Exercício 1
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Crie um Contexto para a aplicação
 
-### Analyzing the Bundle Size
+* A aplicação está sofrendo com o *prop drilling* para renderizar os cards do estudantes. Crie um contexto, um Provider e um Consumer para evitar esse problema.
+* Aproveite transformar os componentes existentes em componentes funcionais =)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
+### Exercício 2
 
-### Making a Progressive Web App
+Renderize os cards para todos os estudantes, utlilizando o componente Cards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Utilize o Contexto que você criou no exercício anterior.
 
-### Advanced Configuration
+---
+### Exercício 3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Utilize o componente HouseButtons para filtrar os estudantes pela casa de Hogwarts a qual pertencem.
 
-### Deployment
+- Os botões já existem na aplicação, porém eles ainda não tem funcionalidade. Essa será sua tarefa. Lembre-se de atualizar o Contexto com as informações filtradas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
+### Bônus
 
-### `npm run build` fails to minify
+Você deve ter notado que alguns estudantes esqueceram de enviar a foto 3x4 para manter no registro de Hogwarts. Para os alunos que não tem foto, renderize o brazão da casa a qual eles pertencem.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Você pode encontrar os brazões das casas na pasta **images***

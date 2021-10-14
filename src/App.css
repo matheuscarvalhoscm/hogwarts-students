@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.students-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.student-card, .student-card img {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+  width: 280px;
+}
+
+.student-card {
+  box-shadow: 1px 1px 5px grey;
+  margin: 10px;
+}
