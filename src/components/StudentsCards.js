@@ -14,7 +14,7 @@ class StudentsCards extends React.Component {
 				{students.map(({ name, gender, house, image }, index) => 
 					<div className="student-card" key={ index }>
 						<img 
-						  src={ image ? image : getCrest(house) }
+						  src={ image }
 						  alt={ name }
 						/>
 						<p>{ name }</p>
