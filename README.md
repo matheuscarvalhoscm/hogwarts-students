@@ -34,7 +34,7 @@ Para cada PR realize esse processo.
 
 ## COMEÇANDO OS EXERCÍCIOS
 
-Neste exercício você irá refatorar uma ~~Potterdex~~ uma aplicação que renderiza cards com as informações dos estudantes da Escola de Mágia e Bruxaria de Hogwarts. Pense nela como se fosse o Mapa do Maroto, só que com um pouco menos de tecnologia  ~~e magia~~ (quer algo mais tecnológico usar um mapa de papel pardo pra rastrear pessoas?). 
+Neste exercício você irá refatorar uma ~~Potterdex~~ aplicação que renderiza cards com as informações dos estudantes da Escola de Mágia e Bruxaria de Hogwarts. Pense nela como se fosse o Mapa do Maroto, só que com um pouco menos de tecnologia  ~~e magia~~ (quer algo mais tecnológico usar um mapa de papel pardo pra rastrear pessoas?). 
 
 Utilize todos os conhecimentos sobre React e Context API adiquiridos até aqui. Bom exercício.
 
