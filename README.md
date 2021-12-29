@@ -34,7 +34,11 @@ Para cada PR realize esse processo.
 
 ## COMEÇANDO OS EXERCÍCIOS
 
+<<<<<<< HEAD
 Neste exercício você irá refatorar uma ~~Potterdex~~ uma aplicação que renderiza cards com as informações dos estudantes da Escola de Mágia e Bruxaria de Hogwarts. Pense nela como se fosse o Mapa do Maroto, só que com um pouco menos de tecnologia  ~~e magia~~ (quer algo mais tecnológico usar um mapa de papel pardo pra rastrear pessoas?). 
+=======
+Neste exercício você irá refatorar uma ~~Potterdex~~ aplicação que renderiza cards com as informações dos estudantes da Escola de Mágia e Bruxaria de Hogwarts. Pense nela como se fosse o Mapa do Maroto, só que com um pouco menos de tecnologia  ~~e magia~~ (quer algo mais tecnológico usar um mapa de papel pardo pra rastrear pessoas?). 
+>>>>>>> 10ad43345377d613bc421e02b8c9e1ddac59b7dd
 
 Utilize todos os conhecimentos sobre React e Context API adiquiridos até aqui. Bom exercício.
 
@@ -65,4 +69,8 @@ Você deve ter notado que alguns estudantes esqueceram de enviar uma foto para o
 
 Filtre os estudantes pela casa de Hogwarts a qual pertencem.
 
+<<<<<<< HEAD
 - Os botões para os filtros já existem na aplicação, porém eles ainda não tem funcionalidade. Essa será sua tarefa. ***Dica: lembre-se que o contexto pode ser utilizado em componentes funcionais e de classe. O this.state pode vir a calhar.***
+=======
+- Os botões para os filtros já existem na aplicação, porém eles ainda não tem funcionalidade. Essa será sua tarefa. ***Dica: lembre-se que o contexto pode ser utilizado em componentes funcionais e de classe. O this.state pode vir a calhar.***
+>>>>>>> 10ad43345377d613bc421e02b8c9e1ddac59b7dd

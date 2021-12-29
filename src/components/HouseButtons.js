@@ -1,25 +1,33 @@
 import React from 'react';
+import AppContext from "../context/AppContext";
 
-const HogwartsHouses = [
-  'Todos',
-  'Gryffindor',
-  'Slytherin',
-  'Hufflepuff',
-  'Ravenclaw',
-];
+function HouseButtons() {
+  const HogwartsHouses = [
+    'Todos',
+    'Gryffindor',
+    'Slytherin',
+    'Hufflepuff',
+    'Ravenclaw',
+  ];
 
-class HouseButtons extends React.Component {
-  render() {
-    return (
-      <div>
-        {HogwartsHouses.map((house, index) => (
-          <button key={ index } type="button">
-            { house }
-          </button>
-        ))}
-      </div>
-    );
-  }
+  return (
+    <AppContext.Consumer>
+      {({ filterHouse }) => (
+        <div>
+          {HogwartsHouses.map((house, index) => (
+            <button
+              key={ index }
+              type="button"
+              name={ house }
+              onClick={ filterHouse }
+            >
+              { house }
+            </button>
+          ))}
+        </div>
+      )}
+    </AppContext.Consumer>
+  );
 }
 
 export default HouseButtons;
